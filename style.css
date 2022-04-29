@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    text-align: center;
+    height: 80vh;
+    background-color: #F0F2F5;
+}
+
+.margen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+    height: 80vh;
+    background-color: #F0F2F5;
+    margin: -3rem;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    width: 500px;
+}
+
+.facebook p {
+    margin-top: -20px;
+    line-height: 32px;
+}
+
+.imagen {
+    margin-left: -30px;
+}
+
+.imagen img {
+    height: 106px;
+}
+
+.usuarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    gap: 2rem;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #FFFFFF;
+    height: 350px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.barras {
+    height: 2rem;
+    width: 350px;
+    border: rgb(221, 223, 226) 1px solid;
+    border-radius: 5px;
+    padding: 0px 25px;
+    outline: none;
+}
+
+.barras:focus {
+    border: 1px solid #166FE5;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.entrar {
+    background-color: #1877f2;
+    color: #FFFFFF;
+    border: transparent 1px solid;
+    border-radius: 5px;
+    height: 2rem;
+    width: 350px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-size: 22px;
+    transition: .3s;
+}
+
+.entrar:hover {
+    background-color: #166FE5;
+}
+
+.lalinea {
+    height: 0px;
+    width: 350px;
+    border: 1px solid #d4d7dd;
+    margin-bottom: 10px;
+}
+
+.crear {
+    background-color: #42B72A;
+    color: #fff;
+    border: transparent 1px solid;
+    border-radius: 5px;
+    height: 2rem;
+    width: 200px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.crear:hover {
+    background-color: #36a420;
+}
+
+.font {
+    margin-top: -10px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.contraseña {
+    font-size: 14px;
+    text-decoration: none;
+    color: #1877f2;
+}
+
+.font2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    background-color: #FFFFFF ;
+    height: 20vh;
+    font-size: 15px;
+    color: #90949C;
+    gap: 5px;
+    padding-top: 20px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.footer-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+.footer-container div {
+    display: flex;
+    gap: 1rem;
+    font-size: 12px;
+}
+
+
+.lacoca {
+    height: 0px;
+    border: 1px #c7c9ce solid;
+}
+
+.firma {
+    margin-top: 1rem;
+}
+
+.firma .link {
+    text-decoration: none;
+    color: #90949C;
+    transition: 300ms;
+}
+
+.firma .link:hover {
+    color: #5f5f61;
+}
+
+.mano {
+    cursor: pointer;
+}
+
+.mano:hover {
+    text-decoration: underline;
+}
+
